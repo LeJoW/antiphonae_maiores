@@ -1,4 +1,26 @@
-\def\rf#1{\hfill\nobreak\mbox{#1}}
 \def\bw{\vskip-1mm}
+
+\global\def\officeTitleShort{Ad Magnificat}%
+
+\renewcommand{\officeTitle}[2]{%
+	\setlength{\baselineskip}{7.5mm}%
+	\def\titleContent{%
+		\vspace{2mm}%
+		\vspace*{1mm}%
+		{\centering\large\decorativ{#1}\par}%
+		\vspace{3mm}%
+	}%
+	\titleBox{\titleContent}%
+	\nobreak%
+}
+
+\prevTradSpace=-2.6mm
+
+\def\thinSpace{\kern0.2em}
+
+\def\image#1#2{{\centerline{\includegraphics[width=#2\linewidth]{../../content/#1}}}}
+\def\imageUn{\image{images/Image_1.jpg}{0.9}}
+\def\imageDeux{\image{images/Image_2.png}{0.8}}
+\def\imageFin{\image{images/Image_finale.jpg}{0.4}}
 
 \input{source/parsed-fr.tex}
