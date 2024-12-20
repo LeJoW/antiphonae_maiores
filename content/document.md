@@ -68,7 +68,7 @@ $
 venez et sauvez l’homme que vous avez formé du limon.
 $
 
-\widePageEnd\break
+\vskip-2mm
 
 ### Die 23
 
@@ -78,8 +78,7 @@ $
 venez nous sauver, Seigneur notre Dieu !
 $
 
-\vfill\break
-\null\vfill
+\vfill
 \imageDeux
 \vfill\break
 
@@ -89,7 +88,11 @@ $
 
 ![](magnificat)
 
+\widePageEnd
+
+\break
 \hbox{}
+\thispagestyle{empty}
 \vfill
 \imageFin
 \vfill
