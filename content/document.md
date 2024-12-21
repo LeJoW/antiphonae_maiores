@@ -84,9 +84,42 @@ $
 
 ### Canticum B. Mariæ Virginis
 
+\begingroup
+\renewcommand{\cantus}[1]{%
+    \parskip=0pt%
+    \vskip-3pt plus 1mm%
+	\cantusInternal{#1}%
+	\prevdepth=-\maxdimen\null\par%
+    \vskip-3pt plus 1mm%
+}
+
 \label{magnificat}
 
-![](magnificat)
+![](magnificat-1)
+
+![](magnificat-2)
+
+![](magnificat-3)
+
+![](magnificat-4)
+
+![](magnificat-5)
+
+![](magnificat-6)
+
+![](magnificat-7)
+
+![](magnificat-8)
+
+![](magnificat-9)
+
+![](magnificat-10)
+
+![](magnificat-11)
+
+![](magnificat-12)
+
+\endgroup
 
 \widePageEnd
 
